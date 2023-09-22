@@ -1,5 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+//import pretrained ai sketch model
+import * as tf from '@tensorflow/tfjs';
+const model = await tf.loadLayersModel('URL_TO_YOUR_MODEL/model.json');
+
 
 function App() {
   return (
