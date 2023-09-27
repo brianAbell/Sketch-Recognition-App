@@ -1,4 +1,4 @@
-import * as tf from '@tensorflow/tfjs-node';
+import * as tf from '@tensorflow/tfjs';
 // import { Logger } from 'sitka';
 import * as fs from 'fs';
 import * as path from 'path';
